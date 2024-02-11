@@ -11,13 +11,13 @@ nanti dia akan download dependencies yg ada di shell.nix. saya cuma masukin git,
 
 ### run python code
 ```bash
-python3 src/hello_world/main.py
+python3 src/hellopy/main.py
 ```
 
 ### additional, docker :
 build docker image 
 ```bash
-docker build -t hello-world .
+docker build -t hellopy .
 ```
 
 run via docker image di container via desktop/terminal
